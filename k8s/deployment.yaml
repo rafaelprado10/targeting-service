@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: targeting-service
-          image: 434473100946.dkr.ecr.us-east-1.amazonaws.com/targeting-service/targeting-service:1.0.0
+          image: 434473100946.dkr.ecr.us-east-1.amazonaws.com/targeting-service:v1.0.0
           ports:
             - containerPort: 8003
               name: http
